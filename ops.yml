@@ -1,0 +1,7 @@
+version: "1"
+services:
+  - name: fastify-next:0.1.22
+    description: A fastify next.js example.
+    run: npm start
+    port: [ '8080:8080' ]
+    domain: ""
